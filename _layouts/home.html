@@ -11,7 +11,9 @@ layout: default
       </div>
       <div class="meta">
         <time class="published" datetime="{{ post.date }}">{{ post.date | date: "%d %b %Y %R" }}</time>
-        <a>{% if page.author %}Written by: {{page.author}}{% endif %}</a>
+        {% if post.author %}
+        작성자: {{post.author}}
+        {% endif %}
       </div>
     </header>
     {% if post.image %}

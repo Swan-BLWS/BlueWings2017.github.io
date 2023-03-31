@@ -16,19 +16,21 @@ layout: default
   </header>
   {{ content }}
   
+  <script src="https://utteranc.es/client.js"
+        repo="BlueWings2017/BlueWings2017.github.io"
+        issue-term="url"
+        label="Comments"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+  
   <footer>
     <ul class="stats">
       <li><a class="icon" href="{{ site.url }}"><i class="fas fa-fw fa-folder"></i> Go to Main</a></li>
     </ul>
   </footer>
-  <script src="https://utteranc.es/client.js"
-        repo="[ENTER REPO HERE]"
-        issue-term="pathname"
-        label="comments"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
+  
 </div>
 </article>
 <ul class="actions pagination">
@@ -42,5 +44,4 @@ layout: default
 
 
 {%include comments.html %}
-
 

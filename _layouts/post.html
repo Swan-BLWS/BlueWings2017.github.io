@@ -9,7 +9,7 @@ layout: default
     </div>
     <div class="meta">
       <time class="published" datetime="{{ page.date }}">{{ page.date | date: "%d %b %Y" }}</time>
-       {% if post.author %}
+      {% if post.author %}
       {{post.author}}
       {% endif %} 
     </div>
@@ -21,7 +21,6 @@ layout: default
       <li><a class="icon" href="{{ site.url }}"><i class="fas fa-fw fa-folder"></i> Go to Main</a></li>
     </ul>
   </footer>
-</div>
 </article>
 
 <div style="float: left;">
@@ -32,7 +31,7 @@ layout: default
         theme="github-light"
         crossorigin="anonymous"
         async>
-</script>
+  </script>
 </div>
 
 <ul class="actions pagination">
@@ -44,6 +43,4 @@ layout: default
   {% endif %}
 </ul>
 
-
 {%include comments.html %}
-

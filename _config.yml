@@ -1,6 +1,6 @@
 title: Blws Blog
 description: > # this means to ignore newlines until "baseurl:"
-<br>
+  Blog with theme Future Imperfect<br>
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bluewings2017.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 

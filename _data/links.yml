@@ -1,6 +1,12 @@
 # blog page sections
-- name: category1
-  href: '/category1/'
+- name: TeamA
+  href: '/TeamA/'
 
-- name: category2
-  href: '/category2/'
+- name: TeamB
+  href: '/TeamB/'
+  
+- name: TeamC
+  href: '/TeamC/'
+  
+- name: TeamD
+  href: '/TeamD/'

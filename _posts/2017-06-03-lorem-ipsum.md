@@ -7,15 +7,6 @@ icon: www
 keywords: tag1, tag2
 image: 1.jpg
 preview: 1
-name: 'Blue'
-last_name: 'BlueWings'
-cv: '//kaptn.ru'
-avatar: '/images/logo.svg'
-github_username:  BlueWings2017 
-email: blws.co.kr
-vk_id: id201664979
-telegram_name: BlueWings2017 
-logo: '/images/logo.svg'
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

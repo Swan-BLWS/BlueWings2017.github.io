@@ -2,6 +2,7 @@
 layout: post
 title:  "Lorem ipsum"
 date:   2017-06-03 00:00
+author: 오유림
 category: category1
 icon: linux
 keywords: tag1, tag2

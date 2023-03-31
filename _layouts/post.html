@@ -9,10 +9,9 @@ layout: default
     </div>
     <div class="meta">
       <time class="published" datetime="{{ page.date }}">{{ page.date | date: "%d %b %Y %R" }}</time>
-        {% if post.author %}
-        {{post.author}}
-        {% endif %}
-       
+      {% if post.author %}
+      {{post.author}}
+      {% endif %}
     </div>
   </header>
   {{ content }}

@@ -5,6 +5,11 @@ layout: default
   <header> 
     <div class="title">
       <h2>{{ page.title | escape }}</h2>
+      
+      {% if post.author %}
+      {{post.author}}
+      {% endif %} 
+      
       <p><a href="//github.com/BlueWings2017/BlueWings2017.github.io/blob/main/{{ page.path }}" class="icon"><i class="fas fa-fw fa-edit"></i> BlueWings GitHub </a></p>
     </div>
     <div class="meta">
@@ -14,6 +19,11 @@ layout: default
       {% endif %} 
     </div>
   </header>
+  
+  {% if post.author %}
+      {{post.author}}
+      {% endif %} 
+  
   {{ content }}
 
   <footer>

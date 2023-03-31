@@ -6,15 +6,15 @@ url: "https://bluewings2017.github.io" # the base hostname & protocol for your s
 
 
 author:
-name: 'Blue'
-last_name: 'Wings'
-cv: '//kaptn.ru'
-avatar: '/images/logo.svg'
-github_username:  BlueWings2017 
-email: blws.co.kr
-vk_id: id201664979
-telegram_name: BlueWings2017 
-logo: '/images/logo.svg'
+  name: 'Blue'
+  last_name: 'Wings'
+  cv: '//kaptn.ru'
+  avatar: '/images/logo.svg'
+  github_username:  BlueWings2017 
+  email: blws.co.kr
+  vk_id: id201664979
+  telegram_name: BlueWings2017 
+  logo: '/images/logo.svg'
 
 # Build settings
 markdown: kramdown

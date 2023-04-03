@@ -7,11 +7,20 @@ layout: default
       <h2>{{ page.title | escape }}</h2>
      
       <p><a href="//github.com/BlueWings2017/BlueWings2017.github.io/blob/main/{{ page.path }}" class="icon"><i class="fas fa-fw fa-edit"></i> BlueWings GitHub </a></p>
+   
+      
+      {% if post.author %}
+      {{post.author}}
+      {% endif %} 
+      
+      
     </div>
     <div class="meta">
       <time class="published" datetime="{{ page.date }}">{{ page.date | date: "%d %b %Y" }}</time>
      
+     {% if post.author %}
       {{post.author}}
+      {% endif %} 
     
     </div>
   </header>

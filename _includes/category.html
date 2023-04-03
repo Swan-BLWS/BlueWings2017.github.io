@@ -29,9 +29,9 @@
                    {% if post.author %}<h5>{{post.author}}</h5>{% endif %}
     			</header>
                 
-                {% if post.icon==null}<img src="{{site.baseurl}}/images/git.svg"/>{% endif %}
                 
-    			{% if post.icon!=null}<a href="{{post.url | relative_url}}" class="image"><img src="{{site.baseurl}}/images/{{ post.icon }}.svg"/></a>{% endif %}
+                
+    			<a href="{{post.url | relative_url}}" class="image"><img src="{{site.baseurl}}/images/{{ post.icon }}.svg"/></a>
                 
     		</article>		
     	</li>

@@ -28,7 +28,11 @@
     					<time class="published" datetime="2015-10-20">{{post.date | date: "%d %b %Y"}}</time>
                    {% if post.author %}<h5>{{post.author}}</h5>{% endif %}
     			</header>
-    			<a href="{{post.url | relative_url}}" class="image"><img src="{{site.baseurl}}/images/{{ post.icon }}.svg"/></a>
+                
+                {% if post.icon==null}<img src="{{site.baseurl}}/images/git.svg"/>{% endif %}
+                
+    			{% if post.icon!=null}<a href="{{post.url | relative_url}}" class="image"><img src="{{site.baseurl}}/images/{{ post.icon }}.svg"/></a>{% endif %}
+                
     		</article>		
     	</li>
     	{% endfor %}

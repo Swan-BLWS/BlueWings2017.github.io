@@ -227,7 +227,7 @@
 			> .image.featured {
 				margin-left: _size(section-spacing-small) * -1;
 				margin-top: calc(#{_size(section-spacing-small) * -1} - 1px);
-				width: calc(100% + #{_size(section-spacing-small) * 1.25});
+				width: calc(80% + #{_size(section-spacing-small) * 2});
 			}
 
 			> footer {

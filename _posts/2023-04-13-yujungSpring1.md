@@ -9,11 +9,15 @@ keywords: tag1, tag2
 preview: 0
 ---
 
-## 🍀 스프링 핵심 원리 - 기본편
+# 🍀 스프링 핵심 원리 - 기본편
 
-#### 섹션1. 객체 지향 설계와 스프링
+<br/>
 
-##### 🍀 스프링이란?
+## 섹션1. 객체 지향 설계와 스프링
+
+<br/>
+
+### 🍀 스프링이란?
 <img src="https://github.com/BlueWings2017/BlueWings2017.github.io/blob/main/post-img/TeamC/springYujung1.jpg?raw=true" width="640" height="auto"/>
 
 ■ <span style="color:green">스프링 생태계</span>
@@ -33,7 +37,7 @@ preview: 0
 <br/>
 
 ***
-##### 🍀 좋은 객체 지향 프로그래밍이란?<br/>
+### 🍀 좋은 객체 지향 프로그래밍이란?<br/>
 
 > 객체 지향 특징<br/>
 >> 추상화<br/>
@@ -41,10 +45,9 @@ preview: 0
 >> 상속<br/>
 >> <span style="color:blue"><b>다형성</b></span>
 
-
 <br/>
 
-###### &nbsp;&nbsp;&nbsp;◼ 객체 지향 프로그래밍<br/>
+#### &nbsp;&nbsp;&nbsp;◼ 객체 지향 프로그래밍<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 컴퓨터 프로그램을 명령어의 목록으로 보는 시각에서 벗어나 여러 개의 독립된 단위 <b>객체</b>들의 모임으로 파악하고자 하는 것<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 각각의 <b>객체</b>는 <b>메시지</b>를 주고받고, 데이터를 처리할 수 있다. <b>(협력)</b><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 객체 지향 프로그래밍은 프로그램을 <b>유연</b>하고 <b>변경</b>이 용이하게 만들기 때문에 대규모 소프트웨어 개발에 많이 사용
@@ -74,9 +77,9 @@ preview: 0
 
 ***
 
-##### 🍀 좋은 객체 지향 설계의 5가지 원칙(SOLID)<br/>
+### 🍀 좋은 객체 지향 설계의 5가지 원칙(SOLID)<br/>
 
-###### &nbsp;&nbsp;&nbsp;◼ SOLID
+#### &nbsp;&nbsp;&nbsp;◼ SOLID
 &nbsp;&nbsp;&nbsp;&nbsp;: 클린코드로 유명한 로버트 마틴이 좋은 객체 지향 설계의 5가지 원칙을 정리<br/><br/>
 
 ```
@@ -135,7 +138,7 @@ preview: 0
 
 <br/>
 
-###### &nbsp;&nbsp;&nbsp;◼ 객체 지향 설계와 스프링
+#### &nbsp;&nbsp;&nbsp;◼ 객체 지향 설계와 스프링
 
 > 스프링-객체 지향<br/>
 >> 스프링은 다음 기술로 다형성 + OCP, DIP를 가능하게 지원<br/>

@@ -19,8 +19,9 @@ layout: default
     </div>
   </header>
   
-  {{ content }}
-
+  {% if page.cs %}
+  <div class="{{page.cs}}">{{ content }}</div>
+  {% else %} {{ content }} {% endif %}
   <footer>
     <ul class="stats">
       <li><a class="icon" href="{{ site.url }}"><i class="fas fa-fw fa-folder"></i> Go to Main</a></li>
